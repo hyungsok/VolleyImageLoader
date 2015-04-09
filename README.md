@@ -1,5 +1,5 @@
 # Introduction to VolleyImageLoader Library
-- How to use Volley ImageLoader instance before you must ApiVolleyImage.init(Context) call.
+- How to use Volley API before you must ApiVolleyImage.init(Context) call.
 
 > Add More API than NetworkImageView 
 ```java
