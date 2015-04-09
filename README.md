@@ -4,7 +4,7 @@ How to use Volley ImageLoader instance before you must ApiVolleyImage.init(Conte
 
 [ Volley Image loader ]
 
-- Add More API than NetworkImageView
+> Add More API than NetworkImageView
 - VolleyImageView image = (VolleyImageView) convertView;
 image.setBitmapConfig(Config.ARGB_8888);
 image.setFitToScreen(true);
@@ -15,5 +15,5 @@ image.setOnImageLoadingListener(new ImageLoadingListener() {
       }
 });
 
-- Simple API Builder Patten
+> Simple API Builder Patten
 - new ApiVolleyImage(url).view(ImageView).isFitScreen(true).isFade(false).displayImage();
