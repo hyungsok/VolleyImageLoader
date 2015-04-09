@@ -15,7 +15,7 @@ image.setOnImageLoadingListener(new ImageLoadingListener() {
 });
 ```
 
-> Simple API (Java Builder Patten)
+> Simple Volley Image API (Java Builder Patten)
  - set : Bitmap.Config, ImageListener, isCache, isFitScreen, isFade, 
 ```java
 new ApiVolleyImage((String)url).view((ImageView)view)
