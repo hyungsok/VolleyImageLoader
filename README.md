@@ -1,14 +1,14 @@
-# VolleyImageLoader
-Introduction to Volley image Loader
+# Introduction to VolleyImageLoader Library
 
-Volley Image loader 
+How to use Volley ImageLoader instance before you must ApiVolleyImage.init(Context) call.
 
-How to use Volley ImageLoader instance before you must init(Context) call.
- - ApiVolleyImage.init(Context);
+[ Volley Image loader ]
 
-ex>
-
+1. 
 VolleyImageView image = (VolleyImageView) convertView;
+// NetworkImageView add More API
+image.setBitmapConfig(Config.ARGB_8888);
+image.setFitToScreen(true);
 image.setImageUrl(Utils.checkImageUrl(imageUrl), mImageLoader);
 image.setOnImageLoadingListener(new ImageLoadingListener() {
     @Override
@@ -16,4 +16,5 @@ image.setOnImageLoadingListener(new ImageLoadingListener() {
       }
 });
 
+2.
 new ApiVolleyImage(url).view(ImageView).isFitScreen(true).isFade(false).displayImage();
