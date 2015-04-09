@@ -1,5 +1,5 @@
 # VolleyImageLoader
-Introduction to Volley image Loader Test
+Introduction to Volley image Loader
 
 Volley Image loader 
 
